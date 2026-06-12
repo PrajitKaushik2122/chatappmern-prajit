@@ -106,16 +106,6 @@ const Login = () => {
       >
         Login
       </Button>
-      <Button
-        variant="solid"
-        width="100%"
-        onClick={() => {
-          setEmail("guest@example.com");
-          setPassword("123456");
-        }}
-      >
-        created by Raghav Choudhary and Prajit Kaushik
-      </Button>
     </VStack>
   );
 };
